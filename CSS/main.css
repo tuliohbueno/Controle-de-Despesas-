@@ -1,0 +1,418 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    color: #000000;
+}
+ul{
+    padding: 0px !important;
+}
+.Menu_incial {
+    width: 100%;
+    background-color:#111111;
+    height: 60px;
+    
+    
+}
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+      
+  }
+
+.logo_tipo {
+    height: 100%;
+    float: left;
+    padding: 4px;
+    width: 70%;
+}
+.Redes_sociais ul li {
+    margin-left: 15px ;
+    display: inline-block;
+    list-style: none;
+}
+.Redes_sociais {
+    width: 20%;
+    float: right;
+}
+.Header_2{
+    background-color: hsl(63, 50%, 92%);
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px 
+}
+.Menu_links{
+    height: 60px;
+    border-bottom: 3px solid #f4f5e1; 
+    background-color: #f4f5e1   ;
+}
+.Menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 20px;
+    height: 35px;
+}
+.Menu ul li:hover {
+    border-bottom: 2px solid #fecb00;
+}
+
+.Menu ul li a:hover{
+    color: #fecb00;
+}
+
+.Menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform:uppercase;
+}
+.Menu {
+    width: 70%;
+    float: left;
+}
+    
+.Pesquisa {
+    text-align: center;
+    width: 30%; 
+    float: right;
+}
+.Pesquisa input {      
+    background-image: url('../IMAGENS/pesquisa.png') ; 
+    background-repeat: no-repeat;
+    background-position: 95%;
+    margin-top: 10px; 
+    width: 150px;
+    height: 18px; 
+    padding: 3px;
+    border: 1px solid #d6d6d6 ;
+}
+.Coluna_em_100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev{
+     font-size: 0px;
+     border: none;
+     height: 51px;
+     width: 25px;
+     background-color: transparent;
+     background-image: url('../IMAGENS/Seta_volta.png');
+     position: absolute;
+     z-index: 9;
+     top: 40%;
+     left: 1%;
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url('../IMAGENS/Seta_frente.png');
+    position: absolute;
+    z-index: 9;
+    top: 40%;
+    right: 1%;    
+}
+.slick-list{
+    width: 100%!important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 3px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 92%;   
+}
+.slick-dots li{
+    display: inline-block;
+    padding-left: 10px;
+}
+li.slick-active button {
+    background: #fecb00 ;
+}
+
+
+#titulo{
+	position: relative;
+	background: #778899;
+    color: white;
+    border: 1px double #fff;
+    font-family: sans-serif;
+    padding: 2px;
+    display: inline-block;    
+}
+
+#tabela{
+	border: 1px solid black;
+}
+
+#tabela th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+#tabela tr:nth-child(odd){
+background-color: #ddd;
+}
+
+#tabela tr:nth-child(even){
+background-color: white;
+}
+
+th{
+	background: #fecb00;
+	color: white;
+}
+
+th, td{
+	padding: 5px 10px;
+}
+
+.btn{
+	border: none;
+	border: 1px solid #000000;
+	font-family: sans-serif;
+	color: black;
+	font-size: 12px;
+	padding: 10px 18px;
+	cursor: pointer;
+	margin: 10px;
+}
+.btn:hover{
+	background:	#fecb00 ;
+	color:black;
+}
+/* Tela caixa  */
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+:root {
+  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  margin: 30px auto;
+  width: 350px;
+}
+
+h1 {
+  letter-spacing: 1px;
+  margin: 0;
+  color: #2e75cc;
+}
+
+h3 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+}
+
+h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.inc-exp-container {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+.inc-exp-container > div:first-of-type {
+  border-right: 1px solid #dedede;
+}
+
+.money {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.money.plus {
+  color: #2ecc71;
+}
+
+.money.minus {
+  color: #c0392b;
+}
+
+label {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+input[type='text'],
+input[type='number'] {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: gold;
+  box-shadow: var(--box-shadow);
+  color: rgb(31, 29, 29);
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+}
+.btn:hover{
+    background-color: #2e75cc;
+    color: #fafcff;
+}
+
+.btn:focus,
+.delete-btn:focus {
+  outline: 0;
+}
+
+.transactions {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.transactions li {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.transactions li.plus {
+  border-right: 5px solid #2ecc71;
+}
+
+.transactions li.minus {
+  border-right: 5px solid #c0392b;
+}
+
+.delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.transactions li:hover .delete-btn {
+  opacity: 1;
+}
+
+/* Tala do Carro/ */
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.titulo{
+font-family: sans-serif;
+display: inline-block;
+margin-top: 10px;
+padding: 15px;
+background: rgb(250, 248, 248);
+color: #53514ad5;
+border: 1px double black;
+margin: 5px 2px 10px;
+}
+#form label{
+background: #ddd;
+color: green;
+font-family: sans-serif;
+}
+/*  Tabela estoque  */
+.alinharRotulos {
+    text-align: right;
+}
+.alinhaBtns {
+    width:30%;
+    background-color: black;
+    color:white;
+    border:0px;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.alinhaBtns:hover{
+    color: #4682B4;
+}
+.carrinho {
+    width:300px; 
+    float:right;
+}
+.carrinho p {
+    display: inline;
+}
+table {
+    clear:both; 
+    background-color: gold;
+    border-radius: 10px; 
+    color:black;
+    padding:10px;
+    width:400px;
+    margin:auto;
+    font-family: sans-serif;
+}
+caption {
+    color: #708090; 
+    font-weight: bold; 
+    font-size: 25px;
+    font-family: Verdana ;
+}
